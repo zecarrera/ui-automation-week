@@ -1,5 +1,4 @@
 exports.config = {
-
     runner: 'local',
     specs: [
         './test/specs/**/*_spec.js'
@@ -15,7 +14,7 @@ exports.config = {
     }],
     logLevel: 'error',  
     bail: 0,
-    baseUrl: 'https://automationintesting.online/#/',
+    baseUrl: 'https://automationintesting.online',
     waitforTimeout: 10000,
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,

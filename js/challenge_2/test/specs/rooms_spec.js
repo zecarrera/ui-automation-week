@@ -20,8 +20,7 @@ describe('Given admin user is logged in', () => {
             roomManagementPage.createRoom(roomNumber, '100');
         });
 
-        it('Then submitted room is shown in the list', () => {
-            roomManagementPage.checkRoomIsListed(roomNumber);
-        });
+        it('Then submitted room is shown in the list', () => 
+            roomManagementPage.checkRoomIsListed(roomNumber));
     });
 });
